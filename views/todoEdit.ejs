@@ -30,9 +30,9 @@
                                 <div class="todo-list-item-name">
                                     <%= details.content %>
                                 </div>
-                                <a href="/edit/<%= details._id %>" class="edit"> <span class="fas fa-edit"></span>
+                                <a href="/edit/<%= details._id %>" class="edit"> <span><button class="btn btn-danger">Edit</button></span>
                                 </a>
-                                <a href="/remove/<%= details._id %>" class="remove"> <span class="fas fa-times"></span>
+                                <a href="/remove/<%= details._id %>" class="remove"> <span><button class="btn btn-danger">Delete</button></span>
                                 </a>
                             </li>
                             <% } %>
